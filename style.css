@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+#timing{
+    margin-right: 2rem !important;
+    background-color: rgba(231, 128, 9, 0.692);
+    color: white;
+    font-weight: bold;
+    border-radius: 20px;
+    font-size: 0.7rem;
+    padding:0.7rem;
+    cursor:default;
+}
+.navbar{
+    background-color: white!important;
+    
+    
+}
+.navbar-brand{
+    cursor:default;
+}
+
+#nav2{
+    font-family: roboto;
+    
+    
+   
+}
+
+#nav2 a{
+    margin-right: 2rem !important;
+    
+}
+
+
+#coverimage img {
+    width: 100%;
+    height: auto;
+  }
