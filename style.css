@@ -29,7 +29,12 @@
 
 #nav2 a{
     margin-right: 2rem !important;
+  
     
+}
+#items{
+     margin-left:33rem !important;
+     
 }
 
 
@@ -89,5 +94,26 @@ box-shadow: 0 10px 20px rgba(16, 1, 20, 0.12), 0 4px 8px rgba(130, 55, 151, 0.12
       margin-top: 4.2rem;
   }
 
+  .form-control{
+      border-radius:3rem;
+      border-color:rgb(87, 4, 87) ;
+      width:17rem;
+     font-family: "FontAwesome";
+     
+     
+      
+  }
+
+
+
+
+
+
+  /*MEDIA QUERY SECTION*/
+  @media only screen and (max-width: 600px) {
+    #items{
+        margin-left:0rem !important;
+   }
+  }
 
  
