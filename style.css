@@ -155,12 +155,13 @@
    height:auto;
 
  }
-.tattoo{
-    margin-bottom: 1rem;
-}
+
 .pierce {
-    margin-top: 1.5rem;
+    margin-top: 0.8rem
     }
+}
+.tattoocard{
+    height:25.5rem;
 }
    
   
