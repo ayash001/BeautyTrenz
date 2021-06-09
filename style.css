@@ -141,7 +141,8 @@
 
 .titlehead{
     text-align: center;
-    padding: 2rem;
+    padding-top: 3.3rem;
+    padding-bottom:1.8rem;
     padding-left: 0px;
     padding-right: 0px;
     text-transform: uppercase!important;
@@ -175,14 +176,15 @@
 }
 .titlehead{
     text-align: center;
-    padding: 1rem;
+    padding-top: 1.7rem;
+    padding-bottom: 1rem;
     padding-left: 0px;
     padding-right: 0px;
     text-transform: uppercase!important;
     font-weight: bold;
     color: black;
     font-family:Roboto,Railway;
-    font-size:3rem;
+    font-size:2rem;
     
 }
 .titlehead:after{
