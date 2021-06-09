@@ -134,7 +134,8 @@
     
 }
 #servicecontainerfluid{
-    background-color: rgba(168, 166, 166, 0.89);
+   /* background-color: rgba(168, 166, 166, 0.89);*/
+   background-color: #e2e2e2;
 }
 
 
