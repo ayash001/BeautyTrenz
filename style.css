@@ -138,8 +138,17 @@
 }
 
 
-
-
+.titlehead{
+    text-align: center;
+    padding: 2rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-transform: uppercase!important;
+    font-weight: bold;
+    color: black;
+    font-family:Roboto,Railway;
+    font-size:3rem;
+}
 
 
 
@@ -163,8 +172,34 @@
 .pierce{
     margin-top:4.6rem;
 }
+.titlehead{
+    text-align: center;
+    padding: 2rem;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-transform: uppercase!important;
+    font-weight: bold;
+    color: black;
+    font-family:Roboto,Railway;
+    font-size:3rem;
+    
+    
+    
+    
+}
+.titlehead:after{
+border-bottom:solid 5px #de1f82;
+content:'';
+display:block;
+width:50%;
+margin-left:25%;
+
+}
+
   
 }
+
+
 @media only screen and (min-width: 1200px) and (max-width:1900px ) {
 
     #items{
