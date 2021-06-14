@@ -157,7 +157,7 @@
 
     padding:2rem;
     padding-top: 0.5rem;
-    text-align: center;
+    
    
     
 }
@@ -167,10 +167,12 @@
 #aboutbody{
     padding:1rem;
     padding-top: 0.5rem;
-    text-align: center;
+    text-align: left;
     font-size: 1.3rem;
 }
- 
+#centerline{
+    text-align: center!important;
+}
 
 
 
