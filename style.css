@@ -202,6 +202,9 @@
 .pierce{
     margin-top:4.6rem;
 }
+#tthead{
+    font-size: 2rem;
+}
 .titlehead{
     text-align: center;
     padding-top: 1.7rem;
@@ -210,7 +213,7 @@
     padding-right: 0px;
     text-transform: capitalize!important;
     color: rgb(36, 34, 34);
-    font-size:2.5rem;
+    font-size:2rem;
     
 }
 #aboutcontainer{
@@ -232,9 +235,7 @@
     text-align: inherit;
 
 }
-#tthead{
-    font-size: 2rem;
-}
+
 
 
 
