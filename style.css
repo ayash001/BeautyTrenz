@@ -1,4 +1,6 @@
-*{
+*{  
+    padding:0px;
+    margin:0px;
     box-sizing: border-box;
 }
 /*#timing{
@@ -54,7 +56,7 @@
 #coverimage img{
 
     width: 800px !important;;
-    height: 500px!important;;
+    height: 500px!important;
     margin-left: auto!important;
     margin-right: auto !important;
 
@@ -141,16 +143,38 @@
 
 .titlehead{
     text-align: center;
-    padding-top: 3.3rem;
-    padding-bottom:1.8rem;
+    padding-top: 2.8rem;
+    padding-bottom:1.3rem;
     padding-left: 0px;
     padding-right: 0px;
-    text-transform: uppercase!important;
-    font-weight: bold;
-    color: black;
-    font-family:Roboto,Railway;
+    text-transform: capitalize!important;
+    color: rgb(36, 34, 34);
+    font-family: 'Source Sans Pro', sans-serif ,Roboto,Railway;  
     font-size:3rem;
 }
+
+#aboutcontainer{
+
+    padding:2rem;
+    padding-top: 0.5rem;
+   
+    
+}
+#aboutinner{
+    padding:1rem;
+}
+#aboutbody{
+    padding:1rem;
+    padding-top: 0.5rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+ 
+
+
+
+
+
 
 
 
@@ -163,7 +187,8 @@
    }
    #coverimage img{
    max-width: 100%;
-   height:auto;
+   height:250px;
+   object-fit:contain;
 
  }
 
@@ -180,21 +205,43 @@
     padding-bottom: 1rem;
     padding-left: 0px;
     padding-right: 0px;
-    text-transform: uppercase!important;
-    font-weight: bold;
-    color: black;
-    font-family:Roboto,Railway;
-    font-size:2rem;
+    text-transform: capitalize!important;
+    color: rgb(36, 34, 34);
+    font-size:2.5rem;
     
 }
-.titlehead:after{
+#aboutcontainer{
+
+    padding:0rem;
+   
+    
+}
+#aboutinner{
+    padding:0rem;
+}
+#aboutbody{
+    padding:1rem;
+    padding-top: 0.2rem;
+    text-align: center;
+    font-size: 0.8rem;
+}
+#tthead{
+    font-size: 2rem;
+}
+
+
+
+
+
+
+/*.titlehead:after{
 border-bottom:solid 3px #de1f82;
 content:'';
 display:block;
 width:50%;
 margin-left:25%;
 
-}
+}*/
 
   
 }
