@@ -228,8 +228,9 @@
     font-size: 1rem;
 }
 #centerline{
-    font-size: 0.8rem;
-    text-align: left;
+    font-size: 1rem;
+    text-align: inherit;
+
 }
 #tthead{
     font-size: 2rem;
