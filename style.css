@@ -189,6 +189,7 @@
 }
 #aboutinner{
     padding:1rem;
+
 }
 #aboutbody{
     padding:1rem;
@@ -248,7 +249,14 @@
     
 }
 .banner{
-   
+    background-color: hsla(103, 64%, 87%, 0.788);
+    background-image: url('images/finalbanner.jpg');
+   background-repeat: no-repeat;
+    background-size: cover!important;
+    background-position:right;
+    background-attachment: fixed;
+    overflow:hidden;
+    
 }
 
 #aboutcontainer{
