@@ -15,18 +15,19 @@
 }*/
 /*PRELOADER GIF*/
 .navbar{
-    background-color: rgb(20, 18, 18)!important;
+    
     margin-top: 0;
     
     
 }
 .navbar-brand{
     cursor:default;
+    color: white!important;
 }
 
 #nav2{
     font-family: roboto;
-    
+    background-color: rgba(4, 54, 4, 0.726)!important;    
     
     
     
@@ -35,12 +36,13 @@
 
 #nav2 a{
     margin-right: 2rem !important;
-    color: white;
+    color: hsla(103, 64%, 87%, 0.788);
   
     
 }
 #items a:hover{
-    color: #de1f82!important;
+    color:white;
+
 }
 
 
@@ -48,11 +50,20 @@
      margin-left:38rem !important;
      
 }
-#coverimage 
+/*#coverimage 
 {
-    background-color: black;
+    background-color: hsla(103, 64%, 87%, 0.788);
+    background-image:url(https://absolutely.london/wp-content/uploads/2018/09/HERO-TAKE-2.jpg)!important;
+    background-size: cover;
     margin-bottom: 0px !important;
     padding-bottom: 0px !important;
+    
+
+}
+#centeralign{
+   
+    
+
 }
 #coverimage img{
 
@@ -61,7 +72,18 @@
     margin-left: auto!important;
     margin-right: auto !important;
 
+}*/
+.banner{
+    height:580px;
+    background-color: hsla(103, 64%, 87%, 0.788);
+    background-image: url('https://theparkskinclinic.ie/wp-content/uploads/revslider/home-1/slide1.jpg');
+   background-repeat: no-repeat;
+    background-size: cover!important;
+    background-position: center;
+    background-attachment: fixed;
+    overflow:hidden;
 }
+
 
 
 
@@ -126,7 +148,9 @@
      
       
   }
-  
+   .carousel-inner{
+       display: flex !important;;
+   }
   .carousel-indicators .active {
     background-color: #de1f82 !important;
     
@@ -138,7 +162,8 @@
 }
 #servicecontainerfluid{
    /* background-color: rgba(168, 166, 166, 0.89);*/
-   background-color: #e2e2e2;
+   /*background-color: #e2e2e2;*/
+   background-color: hsla(103, 64%, 87%, 0.788);
 }
 
 
@@ -195,13 +220,12 @@
         
         
    }
-   #coverimage img{
+  /* #coverimage img{
    max-width: 100%;
    height:800px;
    object-fit:contain;
 
- }
-
+ }*/
 
 .tattoocard{
     height:27rem !important;
@@ -222,6 +246,9 @@
     color: rgb(36, 34, 34);
     font-size:2rem;
     
+}
+.banner{
+   
 }
 
 #aboutcontainer{
