@@ -83,7 +83,12 @@
     background-attachment: fixed;
     overflow:hidden;
 }
-
+.bannercontent{
+    background: rgba(7, 71, 7, 0.315)!important;   
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}
 
 
 
@@ -257,7 +262,13 @@
     background-attachment: fixed;
     overflow:hidden;
     
+    
+
+    
 }
+
+
+
 
 #aboutcontainer{
 
