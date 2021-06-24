@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto+Slab&display=swap');
+
 *{  
     padding:0px;
     margin:0px;
@@ -84,11 +86,15 @@
     overflow:hidden;
 }
 .bannercontent{
-    background: rgba(7, 71, 7, 0.315)!important;   
+   background: rgba(7, 71, 7, 0.315)!important; 
     overflow: hidden;
     height: 100%;
     z-index: 2;
+
+    
+    
 }
+
 
 
 
@@ -100,76 +106,7 @@
 
 }*/
 
-.row{
-    justify-content:center;
-    
-}
-.card{
-    margin:1rem;
-    border:solid 1px #de1f82 !important;
-  
-}
 
-
-
-.card img{
-    margin-top: 0.8rem !important;
-}
-.card-title{
-    /*text-align: center;*/
-    color:#880649 !important;
-    font-style:roboto,Lemonade,Courier;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
- 
- .card-text{
-    color: #880649 !important;
-    font-style: roboto;
-    
-  
-    
-  }
-  .btn{
-    background-color:#880649 !important;
-    border:#880649 !important;
-  }
-  .btn:hover{
-    background-color:#880649 !important;
-    transform: scale(1.05);
-    cursor:default;
-    box-shadow: 0 10px 20px rgba(16, 1, 20, 0.12), 0 4px 8px rgba(130, 55, 151, 0.12);
-  }
-  .pierce{
-      margin-top: 4.2rem;
-  }
-
-  .form-control{
-      border-radius:3rem;
-      border-color:#880649 !important;
-      width:17rem;
-     font-family: "FontAwesome";
-     
-     
-      
-  }
-   .carousel-inner{
-       display: flex !important;;
-   }
-  .carousel-indicators .active {
-    background-color: #de1f82 !important;
-    
-  }
-  #servicecontainer{
-    margin-top: 0px !important;
-    padding-top: 0px !important;
-    
-}
-#servicecontainerfluid{
-   /* background-color: rgba(168, 166, 166, 0.89);*/
-   /*background-color: #e2e2e2;*/
-   background-color: hsla(103, 64%, 87%, 0.788);
-}
 
 
 .titlehead{
@@ -182,6 +119,7 @@
     color: rgb(36, 34, 34);
     font-family: 'Source Sans Pro', sans-serif ,Roboto,Railway;  
     font-size:3rem;
+    
 }
 
 #aboutcontainer{
@@ -212,6 +150,43 @@
 
 }
 
+#servicecontainer{
+    display: flex;
+    align-items: center;
+
+
+}
+#service-items{
+    display:inline-block;
+    
+    
+   
+
+}
+.item{
+    display: flex;
+    
+    margin:2rem;
+    
+    
+}
+.item img{
+    
+    margin:1rem;
+}
+.item-name h5{
+    margin:1rem;
+    
+    
+}
+
+.item-name p{
+    margin-left: 1rem;
+    margin-top: 0.5rem;
+} 
+.hright{
+    text-align:start!important; 
+}
 
 
 
@@ -219,7 +194,20 @@
 
 
 
-  /*MEDIA QUERY SECTION*/
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+/*MEDIA QUERY SECTION*/
   @media only screen and (max-width: 600px) {
     #items {
         margin-left:0px !important;
@@ -233,12 +221,7 @@
 
  }*/
 
-.tattoocard{
-    height:27rem !important;
-}
-.pierce{
-    margin-top:4.6rem;
-}
+
 #tthead{
     font-size: 2rem;
 }
@@ -252,9 +235,10 @@
     color: rgb(36, 34, 34);
     font-size:2rem;
     
+    
 }
 .banner{
-    background-color: hsla(103, 64%, 87%, 0.788);
+    background-color: hsla(104, 25%, 71%, 0.788);
     background-image: url('images/finalbanner.jpg');
    background-repeat: no-repeat;
     background-size: cover!important;
@@ -296,10 +280,23 @@
     margin-top: 0rem;
 }
 
+/*SERVICE RESPONSIVE PORTION*/
+#servicecontainer{
+flex-direction: column;
+}
+.item{
+    flex-direction: column;
+}
+.item img{
+    height:5rem;
+    width:5rem;
+    
+
+}
 }
 
 
-}
+
 
 
 
